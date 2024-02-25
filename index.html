@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Movie Review" content="A good movie makes the audience feel like they've journeyed with the characters">
+    <title>Movie Review</title>
+</head>
+<body>
+    <header>
+        <h1>Movie Review Central</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Latest Reviews</a></li>
+                <li><a href="index.html">Top Titles</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+                <li><a href="index.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="LatestReviews">
+            <h2>Latest Reviews</h2>
+            <h3>DUNE</h3>
+            <img src="Images/Dune_Part_Two_poster.jpeg" alt="Movie 1 Poster" width="300" height="400">
+            <p>“Dune” unfolds across the desert planet of Arrakis, the sole source of the universe's <br> most valuable substance, the spice Melange. Through the eyes of Paul Atreides, we witness a tangled <br> plot of betrayal and rebellion, where political intrigue and ecological dynamics interplay with destiny <br> and individual agency</p>
+            <video width="640" height="360" controls>
+                <source src="videos/The-Last-Ship-S2E02-720p-Farsi-BluRay-Movie.af.mp4" type="video/mp4">
+            </video>
+            <a href="review.html">Read Full Review</a><!--the more details of review is on review.html file-->
+        </section>
+        <section id="top-rated-movies">
+            <h2>Top Rated Movies</h2>
+            <table>
+                <tr>
+                    <th>Rank</th>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                    <th>Genre</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Dune</td>
+                    <td>2024</td>
+                    <td>&star; &star; &star; &star; &star;</td>
+                    <td>Action</td>
+                </tr>
+            </table>
+        </section>
+        <section id="RalatedLinks">
+            <h3>Related Links</h3>
+            <aside>
+                <ul>
+                    <li><a href="index.html">Upcoming Movies</a></li>
+                    <li><a href="index.html">Interview with Directors</a></li>
+                </ul>
+            </aside>
+        </section>
+        <section id="Contact_form">
+            <h2>Contact Us</h2>
+            <form action="index.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="Enter your Name" id="name"><br>
+                <label for="Email">Email:</label>
+                <input type="text" name="mail" id="Email" placeholder="Enter your Email"><br>
+                <label for="genre">Favorite movie genre:</label>
+                <select name="genre" id="genre">
+                    <option value="Action">Action</option>
+                    <option value="romantic">Romantic</option>
+                    <option value="Drama">Drama</option>
+                    </select>
+                    <br>
+                    <label for="mes">Message:</label>
+                    <textarea name="mes" id="Msg" cols="20" rows="3"></textarea>
+                    <br>
+                    <input type="checkbox" name="small" id="sml">
+                    <small>Subscribe to newsletters</small><br> 
+                    <input type="submit" value="Send">
+            </form>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Movie Reviews Central by Parisa</p>
+    </footer>
+</body>
+</html>
